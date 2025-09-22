@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VendIt-Your favourite vending site</title>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+        <link rel="stylesheet" href="vendcss1.css" type="text/css">
+</head>
+<body bgcolor="pink">
+    <div class="header" id="Header">
+        <h1>VendIt &nbsp;&nbsp;&nbsp;<a href="checkout.html"><img src="cart.png" height="30px" width="30px"></a></h1>
+    </div>
+<div class="content">
+  <table cellpadding="40">
+    <tr>
+    <td><img src="chococake.avif">Brittania Gobbles Choco Chill Cake <br>&#8377;15 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty1" min="1" max="10"><button id="add1" value="15" onclick="billing1()">ADD</button><br>
+    </td>
+    <td><img src="cake.jpg">Brittania Gobbles Fruity Fun Cake <br>&#8377;15 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty2" min="1" max="10"><button id="add2" value="15" onclick="billing2()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="chococro.png">Brittania Treat Croissant - Cocoa Creme <br>&#8377;16 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty3" min="1" max="10"><button id="add3" value="16" onclick="billing3()">ADD</button><br>
+    </td>
+    <td><img src="vanilla.png">Brittania Treat Croissant - Vanilla Creme <br>&#8377;16 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty4" min="1" max="10"><button id="add4" value="16" onclick="billing4()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="chocomuff.jpg">Brittania Muffills Choco <br>&#8377;9 <s>&#8377;10</s>
+        <br>Quantity:<input type="number" id="qty5" min="1" max="10"><button id="add5" value="9" onclick="billing5()">ADD</button><br>
+    </td>
+    <td><img src="stawmuff.webp">Brittania Muffills Strawberry <br>&#8377;9 <s>&#8377;10</s>
+        <br>Quantity:<input type="number" id="qty6" min="1" max="10"><button id="add6" value="9" onclick="billing6()">ADD</button><br>
+    </td></tr>
+    </table>
+    </div>
+<script src="vendjs.js">function stahead() {
+    document.getElementById("Header").innerHTML;
+}</script>
+
+</body>
+</html>
+

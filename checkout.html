@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VendIt-Your favourite vending site</title>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+        <link rel="stylesheet" href="checkout.css" type="text/css">
+</head>
+<body bgcolor="pink">
+    <div class="header" id="Header">
+        <h1>VendIt</h1>
+    </div>
+<div class="content">
+    <h2 style="text-align:center;">Checkout</h2>
+    <h1 style="text-align:center;">Payment</h1>
+    <table cellpadding="40" >
+        <tr>
+            <td class="cat1">
+                    <img src="gpay.jpg"><div class="overlay1">
+                        <div class="text1">Gpay</div>
+                </div><label for="gpay">Google Pay</label>
+                <input type="radio" id="gpay" name="pay">                  
+            </td>
+            <td class="cat2">
+                <img src="phonepe.jpg"><div class="overlay2">
+                    <div class="text2">Phonepe</div>
+                </div><label for="pho">PhonePe</label>
+                <input type="radio" id="pho" name="pay">                    
+        </td><td class="cat3">
+            <img src="paytm.png"><div class="overlay3">
+                <div class="text3">Paytm</div>               
+            </div><label for="payt">Paytm</label>
+            <input type="radio" id="payt" name="pay">                    
+    </td></tr>
+    </table>
+    <div style="background-color:#FF1694; padding: 20px; border-radius: 25px;">
+    <form align="center" action="thankyou.html" method="post">
+        <label for="pass">Enter pin:</label>
+    <input type="password" id="pass" name="password" minlength="4" maxlength="4" required/><button type="submit">VendIt</button>
+    </form></div>
+    </div>
+<script src="vendjs.js">function stahead() {
+    document.getElementById("Header").innerHTML;
+}</script>
+</body>
+</html>
+

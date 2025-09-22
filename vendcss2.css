@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family:'Oleo Script Swash Caps';
+  }
+  .header {
+    padding: 10px 10px;
+    background: #FF1694;
+    color: #f1f1f1;
+    font-family:'Oleo Script Swash Caps';
+    z-index: 1;
+  }
+  .content {
+    padding: 10px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 100px;
+  }
+  table{
+    margin:200px;
+    border-radius: 25px;
+    background: #FF1694;
+    margin-top: 100px;
+  }
+  table tr td img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:25px;
+  }

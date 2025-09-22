@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VendIt-Your favourite vending site</title>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+        <link rel="stylesheet" href="vendcss1.css" type="text/css">
+</head>
+<body bgcolor="pink">
+    <div class="header" id="Header">
+        <h1>VendIt &nbsp;&nbsp;&nbsp;<a href="checkout.html"><img src="cart.png" height="30px" width="30px"></a></h1>
+    </div>
+<div class="content">
+  <table cellpadding="40">
+    <tr>
+    <td><img src="PeriPeri.webp">Peri Peri Nachos & Salsa Dip <br>&#8377;57 <s>&#8377;60</s>
+        <br>Quantity:<input type="number" id="qty1" min="1" max="10"><button id="add1" value="57" onclick="billing1()">ADD</button><br>
+    </td>
+    <td><img src="Jalapeno.webp">Jalapeno Nachos & Salsa Dip <br>&#8377;57 <s>&#8377;60</s>
+        <br>Quantity:<input type="number" id="qty2" min="1" max="10"><button id="add2" value="57" onclick="billing2()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="Chilli.webp">Lay's Maxx Macho Chilli <br>&#8377;28 <s>&#8377;30</s>
+        <br>Quantity:<input type="number" id="qty3" min="1" max="10"><button id="add3" value="28" onclick="billing3()">ADD</button><br>
+    </td>
+    <td><img src="Barbeque.webp">Lay's Maxx Sizzling Barbeque <br>&#8377;28 <s>&#8377;30</s>
+        <br>Quantity:<input type="number" id="qty4" min="1" max="10"><button id="add4" value="28" onclick="billing4()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="Noodle.webp">Too Yumm Karare Noodle Masala <br>&#8377;19 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty5" min="1" max="10"><button id="add5" value="19" onclick="billing5()">ADD</button><br>
+    </td>
+    <td><img src="Masala.jpg">Too Yumm Karare Munchy Masala <br>&#8377;19 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty6" min="1" max="10"><button id="add6" value="19" onclick="billing6()">ADD</button><br>
+    </td></tr>
+    <td><img src="Cream&Onion.webp">Bingo Potato Chips Cream & Onion <br>&#8377;18 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty7" min="1" max="10"><button id="add7" value="18" onclick="billing7()">ADD</button><br>
+    </td>
+    <td><img src="Madangles.webp">Bingo Mad Angles Achaari Masti <br>&#8377;48 <s>&#8377;50</s>
+        <br>Quantity:<input type="number" id="qty8" min="1" max="10"><button id="add8" value="48" onclick="billing8()">ADD</button><br>
+    </td></tr>
+    </table>
+    </div>
+<script src="vendjs.js">function stahead() {
+    document.getElementById("Header").innerHTML;
+}
+</script>
+</body>
+</html>
+

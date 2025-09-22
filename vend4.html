@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VendIt-Your favourite vending site</title>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+        <link rel="stylesheet" href="vendcss1.css" type="text/css">
+</head>
+<body bgcolor="pink">
+    <div class="header" id="Header">
+        <h1>VendIt &nbsp;&nbsp;&nbsp;<a href="checkout.html"><img src="cart.png" height="30px" width="30px"></a></h1>
+    </div>
+<div class="content">
+  <table cellpadding="40">
+    <tr>
+    <td><img src="gonemad.jpg">GoneMad Gang Of 5 Premium Coffee Sticks <br>&#8377;58 <s>&#8377;60</s>
+        <br>Quantity:<input type="number" id="qty1" min="1" max="10"><button id="add1" value="58" onclick="billing1()">ADD</button><br>
+    </td>
+    <td><img src="darkchoco.jpg">GoneMad Gang Of 5 Premium Dark Choco Sticks <br>&#8377;58 <s>&#8377;60</s>
+        <br>Quantity:<input type="number" id="qty2" min="1" max="10"><button id="add2" value="58" onclick="billing2()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="gems.jpg">Cadbury Gems Chocolate Pouch <br>&#8377;9 <s>&#8377;10</s>
+        <br>Quantity:<input type="number" id="qty3" min="1" max="10"><button id="add3" value="9" onclick="billing3()">ADD</button><br>
+    </td>
+    <td><img src="galaxy.avif">Galaxy Milk Chocolate Bar <br>&#8377;19 <s>&#8377;20</s>
+        <br>Quantity:<input type="number" id="qty4" min="1" max="10"><button id="add4" value="19" onclick="billing4()">ADD</button><br>
+    </td></tr>
+    <tr>
+    <td><img src="chocowa.jpg">UNIBIC Wafers Rich Chocolate <br>&#8377;9 <s>&#8377;10</s>
+        <br>Quantity:<input type="number" id="qty5" min="1" max="10"><button id="add5" value="9" onclick="billing5()">ADD</button><br>
+    </td>
+    <td><img src="cheese.jpg">UNIBIC Wafers Creamy Cheese <br>&#8377;9 <s>&#8377;10</s>
+        <br>Quantity:<input type="number" id="qty6" min="1" max="10"><button id="add6" value="9" onclick="billing6()">ADD</button><br>
+    </td></tr>
+    </table>
+    </div>
+<script src="vendjs.js">function stahead() {
+    document.getElementById("Header").innerHTML;
+}</script>
+
+</body>
+</html>
+
